@@ -19,3 +19,4 @@ dependencies:
   - wheel=0.45.1=pyhd8ed1ab_1
   - pip:
       - numpy==2.2.3
+      - pyxel==2.3.6
