@@ -7,7 +7,12 @@ This contains a game called "Tic Tac Toe", also known as "Naughts and Crosses".
 
 ## Setup
 
-(Instructions Here)
+### Using uv
+
+Open a terminal console
+Move to the tic-tac-toe directory
+Run `uv sync`
+The dependencies should then be installed.
 
 ## Running the App
 
