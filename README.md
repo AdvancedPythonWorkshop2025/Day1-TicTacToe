@@ -7,7 +7,10 @@ This contains a game called "Tic Tac Toe", also known as "Naughts and Crosses".
 
 ## Setup
 
-(Instructions Here)
+To run the game, first you need to create an environment. 
+- Download/clone the repo.
+- In VS Code, go to the project folder.
+- Then, create an environment using the environment.yaml file using this command: conda env create -f environment.yaml
 
 ## Running the App
 
