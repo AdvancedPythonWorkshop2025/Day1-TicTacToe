@@ -7,14 +7,28 @@ This contains a game called "Tic Tac Toe", also known as "Naughts and Crosses".
 
 ## Setup
 
-(Instructions Here)
+Install dependencies for this revolutionary software using the conda package manager.
+
+```bash
+#confirm that you're in the same directory as the environment info file
+ls environment.yaml
+
+#create the environment with the given path using the provided environment.yaml file
+conda env create -p ./venv -f environment.yaml
+
+#activate the newly created environment
+conda activate ./venv
+
+#confirm dependencies installed correctly by testing for python, output should end in `venv/bin/python3.12`
+which python3.12
+```
 
 ## Running the App
 
 Run the app directly with a 
 
 ```bash
-python tictactoe.py
+python3.12 tictactoe.py
 ```
 
 ## Exercise
